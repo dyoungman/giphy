@@ -1,2 +1,0 @@
-# giphy
-Simple Giphy Browser
