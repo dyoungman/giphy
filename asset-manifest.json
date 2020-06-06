@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/giphy/static/css/main.523f09c5.chunk.css",
-    "main.js": "/giphy/static/js/main.d1fc994d.chunk.js",
-    "main.js.map": "/giphy/static/js/main.d1fc994d.chunk.js.map",
+    "main.js": "/giphy/static/js/main.4908a904.chunk.js",
+    "main.js.map": "/giphy/static/js/main.4908a904.chunk.js.map",
     "runtime-main.js": "/giphy/static/js/runtime-main.4ecd07b6.js",
     "runtime-main.js.map": "/giphy/static/js/runtime-main.4ecd07b6.js.map",
     "static/js/2.2db0a814.chunk.js": "/giphy/static/js/2.2db0a814.chunk.js",
     "static/js/2.2db0a814.chunk.js.map": "/giphy/static/js/2.2db0a814.chunk.js.map",
     "index.html": "/giphy/index.html",
-    "precache-manifest.dffb9c3e5868edbcde65b07a4da54076.js": "/giphy/precache-manifest.dffb9c3e5868edbcde65b07a4da54076.js",
+    "precache-manifest.2e22ada3b21990f7dc1ede609662953e.js": "/giphy/precache-manifest.2e22ada3b21990f7dc1ede609662953e.js",
     "service-worker.js": "/giphy/service-worker.js",
     "static/css/main.523f09c5.chunk.css.map": "/giphy/static/css/main.523f09c5.chunk.css.map",
     "static/js/2.2db0a814.chunk.js.LICENSE.txt": "/giphy/static/js/2.2db0a814.chunk.js.LICENSE.txt",
@@ -18,6 +18,6 @@
     "static/js/runtime-main.4ecd07b6.js",
     "static/js/2.2db0a814.chunk.js",
     "static/css/main.523f09c5.chunk.css",
-    "static/js/main.d1fc994d.chunk.js"
+    "static/js/main.4908a904.chunk.js"
   ]
 }
