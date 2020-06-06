@@ -18,6 +18,7 @@ function App() {
         >
           Learn React
         </a>
+        <p>Updating the deploy</p>
       </header>
     </div>
   );
