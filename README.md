@@ -1,68 +1,99 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# giphy
+Simple Giphy Browser
 
-## Available Scripts
+This simple app has three requirements:
 
-In the project directory, you can run:
+1. The initial screen is an "infinitely scrolling" grid of trending GIFs on Giphy.
+2. There's a search bar on top that will allow a user to search for GIFs. These results will replace the trending GIFs.
+3. When you click a GIF, it will take you to a full-screen view of that GIF.
 
-### `yarn start`
+## ToDos - Things I'd like to add or complete in the future.
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+1. Implement Redux - Oversight in initial design, but will refactor.
+2. Completely scrap the Giphy SDK - It's great out-of-the-box, but it is otherwise overly bulky, rigid, and near impossible to update via state changes.
+3. Convert to Typescript - Nice to have, but was an afterthought that wasn't worth the effort to convert once I got going.
+4. Add autosuggest to search input.
+5. Update Modal to allow for clicking through to giphy or close/return to results.
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+## Getting Started
 
-### `yarn test`
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes. See deployment for notes on how to deploy the project on a live system.
 
-Launches the test runner in the interactive watch mode.<br />
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Prerequisites
 
-### `yarn build`
+What things you need to install the software and how to install them
 
-Builds the app for production to the `build` folder.<br />
-It correctly bundles React in production mode and optimizes the build for the best performance.
+1. Yarn or Node/NPM
+2. Giphy API Key - https://developers.giphy.com/docs/api#quick-start-guide
 
-The build is minified and the filenames include the hashes.<br />
-Your app is ready to be deployed!
+### Installing
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Here are the simple, step by step series of examples that tell you how to get a development env running
 
-### `yarn eject`
+1. Clone the repository to your local environment.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```
+$ git clone https://github.com/dyoungman/giphy.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+2. Create a .env file at root of the application and add the following key.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+```
+REACT_APP_GIPHY_APIKEY=YOURAPIKEY
+```
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+3. Run Yarn in a terminal within therepository working directory to install all necessary dependencies.
 
-## Learn More
+```
+C:\...\GitHub\giphy> yarn
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+4. Start Yarn in a terminal within repository working directory to run locally.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+```
+C:\...\GitHub\giphy> yarn start
+```
 
-### Code Splitting
+5. A browser should open to localhost:3000
+Use and enjoy.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/code-splitting
+## Running the tests
 
-### Analyzing the Bundle Size
+Start Yarn test in a terminal within repository working directory.
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size
+```
+C:\...\GitHub\giphy> yarn test
+```
 
-### Making a Progressive Web App
+## Deployment
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app
+This repo uses GitHub Pages for deploying and serving of the appliocation. More info can be found at:
+* [GitHub Pages](https://pages.github.com/)
 
-### Advanced Configuration
+## Built With
+* [@giphy/js-fetch-api]() - 
+* [@giphy/react-components]() - 
+* [@testing-library/jest-dom]() - 
+* [@testing-library/react]() - 
+* [@testing-library/user-event]() - 
+* [gh-pages]() - 
+* [react](https://reactjs.org/) - The web framework used
+* [react-dom]() - 
+* [react-scripts]() - 
+* [semantic-ui-css]() - 
+* [semantic-ui-react](https://react.semantic-ui.com/) - UI and Styling
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/advanced-configuration
+## Versioning
 
-### Deployment
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/dyoungman/giphy/tags).
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/deployment
+## Authors
 
-### `yarn build` fails to minify
+* **Devin Youngman** - *Initial work* - [email](devin.youngman@move.com)
 
-This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+See also the list of [contributors](https://github.com/dyoungman/giphy/graphs/contributors) who participated in this project.
+
+## Acknowledgments
+
+* Signal - Desktop Take-Home Exercise
+* Coffee, caffeine, and other legal stimulants.
