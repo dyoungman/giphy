@@ -11,7 +11,6 @@ class GiphySearch extends React.Component {
 
     async changeHandler(e) {
         await this.setState({userQuery: e.target.value});
-        console.log(this.state.userQuery);
     }
 
     submitHandler = () => this.props.onSearchChange(this.state.userQuery);
@@ -19,8 +18,8 @@ class GiphySearch extends React.Component {
     render() {
         return (
             <Form onSubmit={this.submitHandler}>
-                <Input placeholder='Search...' onChange={this.changeHandler} />
-                <Button attached='right' color='purple' onClick={this.submitHandler}>Search</Button>
+                <Input onChange={this.changeHandler} placeholder='Enter Search Terms...' size='small' />
+                <Button attached='right' color='purple' onClick={this.submitHandler} >Search</Button>
             </Form>
         );
     }

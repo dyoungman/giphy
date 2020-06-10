@@ -24,11 +24,7 @@ These instructions will get you a copy of the project up and running on your loc
 What things you need to install the software and how to install them
 
 1. Yarn or Node/NPM
-2. Node
-3. A Hue Bridge
-4. A Hue Multicolor Bulb/Device
-5. Install/Setup - Alert Lights API and ensure it is running on localhost:4000
-6. Ensure AWS Credentials are set using - Move-AWS-Tools process.
+2. Giphy API Key - https://developers.giphy.com/docs/api#quick-start-guide
 
 ### Installing
 
@@ -40,19 +36,25 @@ Here are the simple, step by step series of examples that tell you how to get a 
 $ git clone https://github.com/dyoungman/giphy.git
 ```
 
-2. Run Yarn in a terminal within therepository working directory to install all necessary dependencies.
+2. Create a .env file at root of the application and add the following key.
+
+```
+REACT_APP_GIPHY_APIKEY=YOURAPIKEY
+```
+
+3. Run Yarn in a terminal within therepository working directory to install all necessary dependencies.
 
 ```
 C:\...\GitHub\giphy> yarn
 ```
 
-3. Start Yarn in a terminal within repository working directory to run locally.
+4. Start Yarn in a terminal within repository working directory to run locally.
 
 ```
 C:\...\GitHub\giphy> yarn start
 ```
 
-4. A browser should open to localhost:3000
+5. A browser should open to localhost:3000
 Use and enjoy.
 
 ## Running the tests
@@ -83,7 +85,7 @@ This repo uses GitHub Pages for deploying and serving of the appliocation. More 
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.move.com/IT-Operations/alert-lights-admin/tags).
+We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/dyoungman/giphy/tags).
 
 ## Authors
 
