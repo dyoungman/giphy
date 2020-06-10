@@ -1,31 +1,37 @@
 .App {
   background-color: #282c34;
-  text-align: center;
   font-size: calc(10px + 2vmin);
   color: white;
-  margin: auto;
 }
 
 .App-header {
   background-color: #282c34;
+  height:150px;
+}
+
+.App-content {
+  background-color: #282c34 !important;
+}
+
+.App-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba(0, 0, 0, .8);
 }
 
 .App-footer {
   background-color: #282c34;
-  text-align: center;
-  margin: auto;
+  padding: 10px;
 }
 
-.App-footer > h1 {
-  text-align: right;
-  border: 3px solid #73AD21 !important;
-}
-
-.App-footer > div {
-  width:100%;
-  text-align: center !important;
-  
-  margin: auto !important;
+.App-footer > div > div {
+  margin: auto; /* Fixes Giphy grid alignment issue */
 }
 
 .App-link {
