@@ -9,10 +9,11 @@ This simple app has three requirements:
 
 ## ToDos - Things I'd like to add or complete in the future.
 
-1. Completely scrap the Giphy SDK - It's great out-of-the-box, but it otherwise overly bulky, rigid, and near impossible to update via state changes.
-2. Convert to Typescript - Nice to have, but was an afterthought that wasn't worth the effort to convert once I got going.
-3. Add autosuggest to search input.
-4. Update Modal to allow for clicking through to giphy or close/return to results.
+1. Implement Redux - Oversight in initial design, but will refactor.
+2. Completely scrap the Giphy SDK - It's great out-of-the-box, but it is otherwise overly bulky, rigid, and near impossible to update via state changes.
+3. Convert to Typescript - Nice to have, but was an afterthought that wasn't worth the effort to convert once I got going.
+4. Add autosuggest to search input.
+5. Update Modal to allow for clicking through to giphy or close/return to results.
 
 ## Getting Started
 
