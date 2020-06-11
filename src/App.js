@@ -18,7 +18,7 @@ class App extends Component {
     this.handleGifClick = this.handleGifClick.bind(this);
     this.handleSearchChange = this.handleSearchChange.bind(this);
     this.state = { //Adding this to the state due to static nature of the Giphy Grid.
-      gridResults: <Grid width={1000} columns={3} fetchGifs={(offset) => gf.trending({ offset, limit: 10 })} onGifClick={(gif, e) => {this.handleGifClick(gif,e)}} />,
+      gridResults: <Grid width={800} columns={3} fetchGifs={(offset) => gf.trending({ offset, limit: 10 })} onGifClick={(gif, e) => {this.handleGifClick(gif,e)}} />,
       modalGif: undefined
     }
   }
@@ -37,7 +37,7 @@ class App extends Component {
     })
 
     await this.setState({
-      gridResults: <Grid width={1000} columns={3} fetchGifs={fetchGifs2} onGifClick={(gif, e) => {this.handleGifClick(gif,e)}} />,
+      gridResults: <Grid width={800} columns={3} fetchGifs={fetchGifs2} onGifClick={(gif, e) => {this.handleGifClick(gif,e)}} />,
     })
   }
 
